@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace tp2_School.Models.Repositories
 {
-    interface ISchoolRepository
+  public  interface ISchoolRepository
+   
     {
         IList<School> GetAll();
         School GetById(int id);
